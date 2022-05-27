@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <script  src="https://kit.fontawesome.com/b465500eae.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Slab:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    
 </head>
 <body>
     <div class="main">
@@ -1026,12 +1028,259 @@
                     </div>
                 </div>
             </div>
+            <div class="blog-background">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="news-blog">
+                                <h2 class="title-custom news-title">Lastest from blog</h2>
+                                <div class="line"></div>
+                                <p class="slogan-text">Get started on your healthy adventure. Find out latest recipe inspiration and diet tips to have a happy and healthier way to eat.</p>
+
+                                <div class="row">
+                                    <div class="col l-6">
+                                        <div class="item-blog">
+                                            <div class="img-blog__wrap">
+                                                <a href="" class="img-blog__link">
+                                                    <img src="https://food-03.web4s.vn/uploads/plugin/news/5/6-th-c-ph-m-b-nao-t-ng-c-ng-tri-nh-b-n-nen-n-hang-ngay-anh4-15216948889771800964587.jpg" alt="" class="img-blog">
+                                                </a>
+                                            </div>
+                                            <div class="info-blog">
+                                                <div class="info-blog__more">
+                                                    <i class="blog__more-icon fa-solid fa-clock-rotate-left"></i>
+                                                    14:46 - 29/06/2018 
+                                                </div>
+                                                <h2 class="title-blog__item">
+                                                    <a href="" class="title-blog__link">6 THỰC PHẨM BỔ NÃO, TĂNG CƯỜNG TRÍ NHỚ BẠN NÊN ĂN HÀNG NGÀY</a>
+                                                </h2>
+                                                <p class="desc-blog">Chúng ta đều biết rằng uống cà phê thường giúp chúng ta tỉnh táo lâu hơn và linh hoạt hơn. Để tăng sự tập trung, hãy thêm một chút quế vào cốc cà phê và bạn sẽ thấy sự tập trung tăng lên.
+                                                </p>
+                                                <a href="" class="btn btn__view-more">
+                                                    Xem thêm
+                                                    <i class="btn__view-more-icon fa-solid fa-angles-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-6">
+                                        <div class="item-blog">
+                                            <div class="img-blog__wrap">
+                                                <a href="" class="img-blog__link">
+                                                    <img src="https://food-03.web4s.vn/uploads/plugin/news/10/n-u-n-ngon-h-n-nh-th-c-ph-m-s-ch-hinh-2-bai-di-cho-thoi-lo-thuc-pham-ban.jpg" alt="" class="img-blog">
+                                                </a>
+                                            </div>
+                                            <div class="info-blog">
+                                                <div class="info-blog__more">
+                                                    <i class="blog__more-icon fa-solid fa-clock-rotate-left"></i>
+                                                    15:25 - 13/07/2018 
+                                                </div>
+                                                <h2 class="title-blog__item">
+                                                    <a href="" class="title-blog__link">NẤU ĂN NGON HƠN NHỜ THỰC PHẨM SẠCH</a>
+                                                </h2>
+                                                <p class="desc-blog">Ăn uống là chuyện muôn thuở của con người. Ngày xưa chỉ cần ăn no, bây giờ chúng ta cần ăn ngon. Rồi vấn nạn thực phẩm bẩn phát sinh, chúng ta cần ăn sạch.
+                                                </p>
+                                                <a href="" class="btn btn__view-more">
+                                                    Xem thêm
+                                                    <i class="btn__view-more-icon fa-solid fa-angles-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-background">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-5 no-padding">
+                            <div>
+                                <h2 class="title-custom subscribe-title">Subscribe to us!</h2>
+                                <p class="subscribe-text">Enter Your email address for our mailing list to keep yourself update.</p>
+                            </div>
+                        </div>
+                        <div class="col l-7">
+                            <div class="subscribe-form">                             
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Nhập thông tin đăng kí">
+                                    <input type="submit" class="btn subscribe-submit__btn" value="Subscribe me">
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="footer">
+            <div class="main-footer">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3">
+                            <div class="menu-footer">
+                                <div class="fanpage-title">
+                                    <h4 class="footer-title__custom">
+                                        about
+                                    </h4>
+                                    <p class="fanpage-title__content">
+                                        Organic chuyên cung cấp những sản phẩm được kiểm soát chặt chẽ từ khâu con giống, chế biến thức ăn, chăm sóc sức khỏe vật nuôi đến giết mổ, bao gói, bảo quản và vận chuyển một cách tốt nhất, sạch nhất cho thị trường.
+                                    </p>
+                                </div>
+                                <ul class="fanpage__list">
+                                    <li class="fanpage__item">
+                                        <a href="" class="fanpage__item-link">
+                                            <i class="fanpage__item-icon fanpage__item-icon--fb fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fanpage__item">
+                                        <a href="" class="fanpage__item-link">
+                                            <i class="fanpage__item-icon fanpage__item-icon--tw fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fanpage__item">
+                                        <a href="" class="fanpage__item-link">
+                                            <i class="fanpage__item-icon fanpage__item-icon--gg fa-brands fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fanpage__item">
+                                        <a href="" class="fanpage__item-link">
+                                            <i class="fanpage__item-icon fanpage__item-icon--pr fa-brands fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="menu-footer">
+                                <h4 class="footer-title__custom">
+                                    contact
+                                </h4>
+                                <div class="footer-adress">
+                                    <span class="footer-adress__info">
+                                        <i class="footer-adress__icon fa-solid fa-location-dot"></i>
+                                        32 Võ Văn Dũng, Đống Đa, Hà Nội
+                                    </span>
+                                    <span class="footer-adress__info">
+                                        <i class="footer-adress__icon fa-solid fa-phone"></i>
+                                        (01)23456789
+                                    </span>
+                                    <span class="footer-adress__info">
+                                        <i class="footer-adress__icon fa-solid fa-envelope"></i>
+                                        piincoi256@gmail.com
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="menu-footer">
+                                <h4 class="footer-title__custom">
+                                    photo in instagram
+                                </h4>
+                                <div class="photo-ig">
+                                    <div class="photo-ig__item">
+                                        <a href="" class="photo-ig__link">
+                                            <img src="https://food-03.web4s.vn/uploads/plugin/custom_img/2018-09-10/1536548255-1356778536-custom.jpg" alt="" class="photo-ig__img">
+                                            <i class="photo-ig__icon fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="photo-ig__item">
+                                        <a href="" class="photo-ig__link">
+                                            <img src="https://food-03.web4s.vn/uploads/plugin/custom_img/2018-09-10/1536548255-1709592684-custom.jpg" alt="" class="photo-ig__img">
+                                            <i class="photo-ig__icon fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="photo-ig__item">
+                                        <a href="" class="photo-ig__link">
+                                            <img src="https://food-03.web4s.vn/uploads/plugin/custom_img/2018-09-10/1536548255-1140175217-custom.jpg" alt="" class="photo-ig__img">
+                                            <i class="photo-ig__icon fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="photo-ig__item">
+                                        <a href="" class="photo-ig__link">
+                                            <img src="https://food-03.web4s.vn/uploads/plugin/custom_img/2018-09-10/1536548255-772838090-custom.jpg" alt="" class="photo-ig__img">
+                                            <i class="photo-ig__icon fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="photo-ig__item">
+                                        <a href="" class="photo-ig__link">
+                                            <img src="https://food-03.web4s.vn/uploads/plugin/custom_img/2018-09-10/1536548255-2074055279-custom.jpg" alt="" class="photo-ig__img">
+                                            <i class="photo-ig__icon fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                    <div class="photo-ig__item">
+                                        <a href="" class="photo-ig__link">
+                                            <img src="https://food-03.web4s.vn/uploads/plugin/custom_img/2018-09-10/1536548256-1180820099-custom.jpg" alt="" class="photo-ig__img">
+                                            <i class="photo-ig__icon fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="footer-contact-time">
+                                <div class="icon-title">
+                                    <span>
+                                        <img src="https://food-03.web4s.vn/uploads/plugin/custom_img/2019-08-23/1566531453-364304396-custom.png" alt="">
+                                    </span>
+                                </div>
+                                <h5 class="contact__days">Monday to Friday:</h5>
+                                <h4 class="contact__times">08:00am - 08:00pm</h4>
+                                <h5 class="contact__days">Saturday & Sunday:</h5>
+                                <h4 class="contact__times">10:00am - 06:00pm</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-copyright">Copyright by Web4s.com</span>
+            </div>
 
+            <div class="container">
+                <a href="javascript://" class="return-top__btn">
+                    <i class="return-top__icon fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
         </footer>
     </div>
 
     <script src="./assets/js/script.js"></script>
+
+    <!-- jquery -->
+    <script>
+        // words limit
+        $(function(){
+            $.fn.limit = function($n){
+                this.each(function(){
+                    var allText   = $(this).html();
+                    var tLength   = $(this).html().length;
+                    var startText = allText.slice(0,$n);
+                    if(tLength >= $n){
+                        $(this).html(startText+'...');
+                    }else {
+                        $(this).html(startText);
+                    };
+                });
+                
+                return this;
+            }
+            $('.title-blog__link').limit(50);
+            $('.desc-blog').limit(105);
+        });
+        // scroll to top
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 50) {        
+                $('.return-top__btn').fadeIn(200);
+            } else {
+                $('.return-top__btn').fadeOut(200);
+            }
+        });
+        $('.return-top__btn').click(function() {
+            $('body,html').animate({
+                scrollTop : 0
+            }, 500);
+        });
+    </script>
 </body>
 </html>

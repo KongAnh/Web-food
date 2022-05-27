@@ -1088,3 +1088,447 @@
 #radio3:checked  ~ .nav-auto .auto-btn--3 {
     background-color: var(--while-color);
 }
+
+/* Lastest blog */
+
+.news-title {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slogan-text {
+    text-align: center;
+    color: #555;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.item-blog {
+    padding-bottom: 30px;
+}
+
+.img-blog__wrap {
+    position: relative;
+    width: 100%;
+    height: 370px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.img-blog__link {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.img-blog {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: transform 0.4s ease-in-out;
+}
+
+.item-blog:hover .img-blog{
+    opacity: 0.7;
+    transform: scale(1.2);
+    transition: transform 0.4s, opacity 0.4s ease-in-out;
+}
+
+.info-blog {
+    color: #685f52;
+}
+
+.info-blog__more {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.blog__more-icon {
+    font-size: 1.2rem;
+}   
+
+.title-blog__item {
+    color: #333;
+    margin: 10px 0;
+}
+
+.title-blog__link {
+    color: #685f52;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}   
+
+.title-blog__link:hover {
+    color: #f7b111;
+}
+
+.desc-blog {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    line-height: 2.2rem;
+    overflow: hidden;
+}
+
+.btn__view-more {
+    font-size: 1.3rem;
+    border: 1px solid var(--primary-color);
+    padding: 10px 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background: var(--while-color);
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.btn__view-more-icon {
+    font-size: 1rem;
+}
+
+.btn__view-more:hover {
+    background-color: var(--primary-color);
+    color: var(--while-color);
+    transition: all 0.5s ease;
+}
+
+/* Subscribe */
+
+.subscribe-background {
+    background-image: url(https://food-03.web4s.vn/uploads/plugin/custom_img/2019-08-23/1566527241-1511252633-custom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+}
+
+.subscribe-title {
+    text-align: left;
+    color: #555;
+    font-size: 4.6rem;
+    font-weight: 400;
+    line-height: 4rem;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.subscribe-text {
+    color: #666;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 0;
+}
+
+.subscribe-form {
+    width: 100%;
+    padding: 0 30px 30px;
+}
+
+.form-group {
+    display: flex;
+    margin-top: 10px;
+}
+
+.form-control {
+   flex: 1;
+   height: 50px;
+   border: none;
+   outline: none;
+   padding: 11px 20px 11px 20px;
+   color: #999;
+   font-size: 1.4rem;
+   line-height: 1.5rem;
+   background-color: var(--while-color);
+}
+
+.subscribe-submit__btn {
+    padding: 10px 20px;
+    color: var(--while-color);
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.subscribe-submit__btn:hover {
+    background-color: #f7b111;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 15px;
+    background-color: var(--while-color);
+}
+
+.menu-footer {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 30px 0;
+}
+
+.footer-title__custom {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.footer-title__custom::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0;
+    height: 2px;
+    width: 20px;
+    background: var(--primary-color);
+}
+
+.fanpage-title__content {
+    color: #555;
+    font-size: 1.3rem;
+    line-height: 2.15rem;
+    margin: 0 0 20px 0;
+}
+
+.fanpage__list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+.fanpage__item {
+    margin: 0 10px 10px 0;
+}
+
+.fanpage__item-link {
+    color: var(--while-color);
+    font-size: 1.3rem;
+    line-height: 3rem;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.fanpage__item-icon {
+    height: 38px;
+    width: 38px;
+    line-height: 38px !important;
+    text-align: center;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: all 0.35s ease;
+}
+
+.fanpage__item-icon:hover {
+    opacity: 1;
+}
+
+.fanpage__item-icon--fb {
+    background-color: #3b5998;
+}
+
+.fanpage__item-icon--tw {
+    background-color: #1da1f2;
+}
+
+.fanpage__item-icon--gg {
+    background-color: #db4437;
+} 
+
+.fanpage__item-icon--pr {
+    background-color: #dc121a;
+}
+
+.footer-adress__info {
+    color: #685f52;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-adress__icon {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.photo-ig {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-ig__item {
+    width: calc(33.33% - 15px);
+    margin: 0 5px 5px 0;
+    display: inline-block;
+}
+
+.photo-ig__link {
+    position: relative;
+    display: inline-block;
+}
+
+.photo-ig__item:hover .photo-ig__link::before,
+.photo-ig__item:hover .photo-ig__icon{
+    opacity: 1;
+}
+
+.photo-ig__link::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #94c347;
+    transition: all 0.3s ease-in-out;
+}
+
+.photo-ig__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    color: var(--while-color);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.photo-ig__img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.footer-contact-time {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 22px 15px 33px;
+    border: 1px solid #ccc;
+    display: table;
+}
+
+.footer-contact-time::before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    border: 1px solid #ccc;
+}
+
+.icon-title {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.icon-title img {
+    width: 35px;
+}
+
+.icon-title::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 33px;
+    margin-left: 24px;
+    left: 50%;
+    top: 50%;
+    background-color: #94c347;
+}
+
+.icon-title::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 33px;
+    margin-right: 24px;
+    right: 50%;
+    top: 50%;
+    background-color: #94c347;
+}
+
+
+.contact__days {
+    color: #767676;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    margin: 0 0 10px;
+}
+
+.contact__times {
+    color: #999;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: normal;
+    margin: 0 0 12px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #eee;
+}
+
+.footer-copyright {
+    display: block;
+    color: #555;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Return top btn */
+
+.return-top__btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    opacity: 0.75;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.return-top__icon {
+    color: var(--while-color);
+    position: relative;
+    top: 13px; 
+    left: 17px;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.return-top__btn:hover {
+    opacity: 1;
+}
+
+.return-top__btn:hover .return-top__icon {
+    top: 5px;
+}
